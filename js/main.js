@@ -252,4 +252,6 @@ $(document).ready(function() {
     $(".clear-btn").click(clearTagsEvent);
     $('div[data-target="#detailModel"]').click(couponDetailEvent);
     $(".top-btn").click(scrollToTopEvent);
+
+    Url.parseUrl()
 })
